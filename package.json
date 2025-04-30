@@ -1,0 +1,31 @@
+{
+  "name": "gdgqrproj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AarushManglani/QRbasedeventloginsystem.git"
+  },
+  "author": "Aarush Manglani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AarushManglani/QRbasedeventloginsystem/issues"
+  },
+  "homepage": "https://github.com/AarushManglani/QRbasedeventloginsystem#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.1",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.7.0",
+    "qrcode": "^1.5.4"
+  }
+}
